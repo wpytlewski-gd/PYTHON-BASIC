@@ -11,14 +11,30 @@ Example:
         file2.txt (content: "xyz,def,abc", encoding: CP1252)
 """
 
+import os
+
 
 def generate_words(n=20):
-    import string
     import random
+    import string
 
     words = list()
     for _ in range(n):
-        word = ''.join(random.choices(string.ascii_lowercase, k=random.randint(3, 10)))
+        word = "".join(random.choices(string.ascii_lowercase, k=random.randint(3, 10)))
         words.append(word)
 
     return words
+
+
+if __name__ == "__main__":
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+    files_dir = os.path.join(script_dir, "files")
+    words_list = generate_words()
+
+    output_path = os.path.join(files_dir, "results_utf8.txt")
+    with open(output_path, "w", encoding="utf-8") as file_handle:
+        file_handle.write("\n".join(words_list))
+
+    output_path = os.path.join(files_dir, "results_cp1252.txt")
+    with open(output_path, "w", encoding="cp1252") as file_handle:
+        file_handle.write(",".join(reversed(words_list)))
