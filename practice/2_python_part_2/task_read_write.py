@@ -15,9 +15,13 @@ Example:
 """
 
 import os
+from typing import Optional
 
 
-def process_files(files_dir: str, num_of_files: int = 20) -> None:
+def process_files(files_dir: str, num_of_files: int = 20, output_dir: Optional[str] = None) -> None:
+    if output_dir is None:
+        output_dir = files_dir
+
     values = []
     for i in range(1, num_of_files + 1):
         file_path = os.path.join(files_dir, f"file_{i}.txt")
@@ -27,7 +31,7 @@ def process_files(files_dir: str, num_of_files: int = 20) -> None:
             if content:
                 values.append(content)
 
-    output_path = f"{files_dir}/result.txt"
+    output_path = f"{output_dir}/result.txt"
 
     with open(output_path, "w") as file_handle:
         file_handle.write(", ".join(values))
