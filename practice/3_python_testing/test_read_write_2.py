@@ -39,7 +39,16 @@ words = [
 @patch("task_read_write_2.generate_words", return_value=words)
 def test_generate_words_utf_8(mock_input, tmp_path):
     task_main(tmp_path)
-    utf_file_path = tmp_path / "results_utf8.txt"
-    cp_file_path = tmp_path / "results_cp1252.txt"
-    assert utf_file_path.read_text() == "\n".join(words)
-    assert cp_file_path.read_text() == ",".join(reversed(words))
+    utf8_file_path = tmp_path / "results_utf8.txt"
+    expected_content = "\n".join(words)
+    assert utf8_file_path.exists()
+    assert utf8_file_path.read_text() == expected_content
+
+
+@patch("task_read_write_2.generate_words", return_value=words)
+def test_generate_words_cp1252(mock_input, tmp_path):
+    task_main(tmp_path)
+    cp1252_file_path = tmp_path / "results_cp1252.txt"
+    expected_content = ",".join(reversed(words))
+    assert cp1252_file_path.exists()
+    assert cp1252_file_path.read_text(encoding="cp1252") == expected_content
