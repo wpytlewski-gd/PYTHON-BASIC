@@ -51,7 +51,7 @@ fibonacci_seq = [
 ]
 
 
-@pytest.mark.parametrize("func, index, result", fibonacci_seq)
+@pytest.mark.parametrize("index, result", fibonacci_seq)
 def test_fibonacci_1(index, result):
     assert fibonacci_1(index) == result
 
