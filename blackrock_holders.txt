@@ -1,0 +1,13 @@
+========================== 10 largest holds of Blackrock Inc. =========================
+| Name                              | Shares | Date Reported | % Out | Value          |
+---------------------------------------------------------------------------------------
+| Vanguard Group Inc                | 13.76M | Mar 31, 2025  | 8.88% | 14,796,652,950 |
+| Blackrock Inc.                    | 10.36M | Mar 31, 2025  | 6.68% | 11,132,668,667 |
+| State Street Corporation          | 6.36M  | Mar 31, 2025  | 4.11% | 6,839,184,912  |
+| Temasek Holdings (Private) Ltd    | 5.09M  | Mar 31, 2025  | 3.29% | 5,474,888,830  |
+| Bank of America Corporation       | 4.44M  | Mar 31, 2025  | 2.87% | 4,777,241,689  |
+| Capital World Investors           | 4.05M  | Mar 31, 2025  | 2.61% | 4,351,530,536  |
+| Morgan Stanley                    | 4M     | Mar 31, 2025  | 2.58% | 4,299,999,451  |
+| Capital Research Global Investors | 3.43M  | Mar 31, 2025  | 2.22% | 3,689,880,439  |
+| Geode Capital Management, LLC     | 3.11M  | Mar 31, 2025  | 2.01% | 3,342,645,748  |
+| Wells Fargo & Company             | 2.57M  | Mar 31, 2025  | 1.66% | 2,762,407,992  |

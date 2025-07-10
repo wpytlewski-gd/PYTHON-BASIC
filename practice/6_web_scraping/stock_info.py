@@ -31,4 +31,3 @@ Links:
     - beautiful soup docs: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
     - lxml docs: https://lxml.de/
 """
-

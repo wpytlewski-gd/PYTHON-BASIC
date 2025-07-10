@@ -1,0 +1,12 @@
+https://finance.yahoo.com/markets/stocks/most-active/?start=0&count=200
+https://finance.yahoo.com/markets/stocks/most-active/?start=200&count=200
+
+https://finance.yahoo.com/quote/LUMN/profile/
+https://finance.yahoo.com/quote/PATH/profile/
+https://finance.yahoo.com/quote/VOD/profile/
+https://finance.yahoo.com/quote/SCHW/profile/
+https://finance.yahoo.com/quote/COP/profile/
+
+https://finance.yahoo.com/markets/stocks/52-week-gainers/
+
+https://finance.yahoo.com/quote/BLK/holders/
