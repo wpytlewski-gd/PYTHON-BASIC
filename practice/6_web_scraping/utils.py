@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 
 def create_table_file(data, title, filename):
-    # TODO: Simplify this?
     if not data:
         return
 
