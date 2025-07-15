@@ -1,8 +1,0 @@
-====================================== 5 stocks with youngest CEOs ======================================
-| Name                    | Code | Country       | Employees | CEO Name                 | CEO Year Born |
----------------------------------------------------------------------------------------------------------
-| SoundHound AI, Inc.     | SOUN | United States | 842       | Dr. Keyvan  Mohajer      | 1978          |
-| Tesla, Inc.             | TSLA | United States | 125,665   | Mr. Elon R. Musk         | 1971          |
-| Lucid Group, Inc.       | LCID | United States | 6,800     | Mr. Marc  Winterhoff     | 1970          |
-| SoFi Technologies, Inc. | SOFI | United States | 5,000     | Mr. Anthony J. Noto      | 1969          |
-| ProKidney Corp.         | PROK | United States | 204       | Dr. Bruce  Culleton M.D. | 1968          |
